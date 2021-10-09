@@ -1,0 +1,21 @@
+#container{
+    height: 200px;
+    width: 500px;
+    margin-left: 475px;
+    border: solid 2px black;
+    padding: 5px;
+    background-color: cadetblue;
+}
+h1{
+    text-align: center;
+    color: brown;
+}
+#btn1{
+    align-content: center;
+    border: brown;
+}
+body{
+    background-image: url(/public/images/author.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

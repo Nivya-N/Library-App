@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/public/css/style_signup.css">
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+</head>
+<body>
+    <div id="new">
+    <form action="login.html" onsubmit="return validate()" id="form-id" >
+        <h1>Signup Here</h1>
+        <label for="email">Email:</label>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+          <input type="text" id="email" placeholder = "Enter email id" >
+          <br>
+          <br>
+          <label for="phone">Phone Number:</label>
+          &nbsp;
+          &nbsp; 
+          <input type="text" id="phone" placeholder = "Enter phone number">
+          <br>
+          <br>
+          <label for="pwd"> Enter password:</label>
+          &nbsp;
+          &nbsp;
+          
+          <input type="password" id="pwd" placeholder="Enter password" onkeyup="pwdStrength()
+          ">
+          <br>
+          Password must contain  
+          <ul>
+            <li>Minimum 8 characters</li>
+            <li>at least one uppercase character</li>
+            <li>atleast one lower case character</li>
+            <li>atleast one digit</li>
+            <li>Special characters </li>
+
+          </ul> 
+           <div id="meter_wrapper">
+            <div id="meter"></div>
+           </div>
+           <span id="strength"></span>
+          <br>
+          <label for="pwd"> Confirm password:</label>
+          <input type="password" id="pwd-confirm" placeholder="Re-enter password">
+         
+          <br>
+          
+          <br>
+          <input type="submit" src="./login.html">
+
+      </form>
+    </div>
+</div>
+    
+    <script src="/public/js/script_signup.js"></script>
+    
+</body>
+</html>

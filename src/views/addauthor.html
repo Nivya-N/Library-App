@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Book</title>
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/css/style_addauthor.css">
+</head>
+<body>
+    <h1>Add Author</h1>
+    <div id="container">
+        
+            <form onsubmit="return validate()">
+                <div class="form-group row">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Name:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                  </div>
+                </div>
+                <br>
+                <br>
+                
+                  Add image:
+                  <input type="file" accept="image/*" id="img">
+                </div>
+                  <br><br> <br>
+                  <center>
+                  <div class="form-group row">
+                  <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary" id="btn1">Add</button>
+                  </div>
+                </center>
+                </div>
+                </div>
+                
+              </form>
+          
+          
+    </div>
+    <script src="/public/js/script_addauthor.js"></script>
+</body>
+</html>

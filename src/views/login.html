@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/public/css/style_login.css" type="text/css">
+</head>
+<body>
+    <div id="myform">
+        <h3 align='center'>LOGIN</h3>
+        
+        <form action="/src/routes/Login" onsubmit=" return validate()" method="POST">
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="user1">
+        <label for="floatingInput">User ID</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="pwd" >
+        <label for="floatingPassword">Password</label>
+      </div>
+      <br>
+      <input type="submit" class="btn btn-secondary" >
+    </form>
+    <p>Not a member? <a href="/src/views/signup.html">Sign Up Here</a></p>
+    </div>
+    <div>
+     
+    </div>
+    <script src="/public/js/script_login.js"></script>
+</body>
+</html>
